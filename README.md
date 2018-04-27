@@ -1,6 +1,6 @@
 # Watcher of Friends Online
 
-[TODO. There will be project description]
+This program shows your VK-friends online.
 
 # How to Install
 
@@ -11,6 +11,32 @@ pip install -r requirements.txt # alternatively try pip3
 ```
 
 Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
+
+# How to run
+
+Example of running a script on a Linux with a Python3 interpreter.
+
+```bash
+$python3 vk_friends_online.py
+Pass your login\number here:
+<your login\phonenumber>
+Password:
+<your password>
+Friends online:
+Наталия Семяшкина
+Александр Костин
+Инесса Фельдкорен
+Анна Енжаева
+Павел Плотников
+Лилия Власова
+David Bagiryan
+Вероника Владыкина
+Елена Кондрашкина
+Ярослав Бондаренко
+Юлия Надейкина
+Алина Алиша
+Виктория Дёмина
+```
 
 # Project Goals
 
