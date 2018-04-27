@@ -34,13 +34,14 @@ def get_name(session, user_id):
 
 
 def output_friends_to_console(friends_online):
+    sleep_time = 0.3
     print('Friends online:')
     for friend in friends_online:
         user_info = get_name(session, friend)
         first_name = user_info[0]['first_name']
         last_name = user_info[0]['last_name']
         print(first_name, last_name)
-        sleep(0.3)
+        sleep(sleep_time)
 
 
 if __name__ == '__main__':
